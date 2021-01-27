@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search{
+    width: 45%;
+    height: 40px;
+    padding: 20px;
+    outline: 0;
+    border-radius: 10px;
+}
+
+#search_btn{
+    width: 45%;
+    height: 40px;
+    outline: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.moovie_block{
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.moovie{
+    height: 550px;
+    width: 300px;
+    box-shadow: 0 0 15px 5px black;
+    border-radius: 10px;
+    margin: 20px 30px;
+
+}
+
+.moovie img{
+    width: 100%;
+    height: 400px;
+    outline: 0;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#moovie_name{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+#moovie_type{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#moovie_year{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.more_details{
+    width: 100%;
+    height: 35px;
+    background-color: green;
+    color: white;
+    outline: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.details{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    display: none;
+}
+
+.detail_container{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-block{
+    height: 100%;
+    width: 30%;
+}
+
+.detail-info{
+    height: 100%;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.detail_title{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
